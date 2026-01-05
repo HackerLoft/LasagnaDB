@@ -1,0 +1,167 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  /* Ensure text is white */
+  background-color: #242424;
+}
+
+html,
+body {
+  background-color: #242424;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.open-section {
+  display: flex;
+  gap: 10px;
+}
+
+.viewer-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.top-panel {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  width: 100%;
+  max-width: 800px;
+  text-align: left;
+}
+
+.player-container h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.main-player {
+  background: #000;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.ancestry-section {
+  margin-top: 20px;
+  background: #2a2a2a;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.ancestry-section h3 {
+  margin-top: 0;
+  font-size: 1rem;
+  border-bottom: 1px solid #444;
+  padding-bottom: 5px;
+}
+
+.ancestry-item {
+  padding: 5px 0;
+  border-bottom: 1px solid #333;
+  font-family: monospace;
+}
+
+.sc-idx {
+  color: #888;
+  margin-right: 10px;
+}
+
+.uuid-link {
+  color: #646cff;
+  cursor: pointer;
+}
+
+.uuid-link:hover {
+  text-decoration: underline;
+}
+
+.uuid-link.current {
+  color: #fff;
+  font-weight: bold;
+  cursor: default;
+  text-decoration: none;
+}
+
+.parent-arrow {
+  color: #666;
+  margin-left: 10px;
+}
+
+.file-list-simple {
+  width: 100%;
+  max-width: 600px;
+  text-align: left;
+}
+
+.file-row {
+  padding: 10px;
+  border-bottom: 1px solid #333;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.file-row:hover {
+  background: #2a2a2a;
+}
+
+.file-row.active-row {
+  background: #333;
+  border-left: 4px solid #646cff;
+}
+
+.file-icon {
+  font-size: 1.2rem;
+}
+
+.status-bar {
+  display: flex;
+  gap: 20px;
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.pagination {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+input {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 300px;
+}
+
+.placeholder-panel {
+  color: #666;
+  font-style: italic;
+  text-align: center;
+  padding: 20px;
+}
