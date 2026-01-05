@@ -3,7 +3,7 @@ set -e
 
 STORAGE_NAME="lasagna_demo"
 PARENT_FILE="data/Lex_Fridman_Podcast-episode_475–Demis_Hassabis.wav"
-CHUNKS_DIR="data/chunks_test"
+CHUNKS_DIR="data/chunks"
 
 echo "Building..."
 go build -o lt main.go
